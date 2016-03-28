@@ -32,12 +32,8 @@ namespace Ejercicio8
 
             Console.WriteLine("");
 
-            Console.Write("Nombre: " + Nombre);
-            Console.Write("\nAntigüedad: " + Antiguedad);
-            Console.Write("\nValor de hora: " + Valhora);
-            Console.Write("\nCobrar en bruto: " + TotalBruto);
-            Console.Write("\nDescuentos: " + Descuentos);
-            Console.Write("\nValor neto a cobrar: " + TotalNeto);
+            Console.Write("Nombre\tAntigüedad\tValorHora\tSalarioBruto\tDescuentos\tSalarioNeto\n");
+            Console.Write("{0}\t{1}\t\t{2:f2}\t\t{3:f2}\t\t{4:f2}\t\t{5:f2}", Nombre, Antiguedad, Valhora, TotalBruto, Descuentos, TotalNeto);
 
             Console.ReadKey();
         }
